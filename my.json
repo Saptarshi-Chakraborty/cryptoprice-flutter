@@ -1,0 +1,1449 @@
+{
+  "statusCode": 200,
+  "message": "OK",
+  "data": {
+    "CHZ": {
+      "iso": "CHZ",
+      "name": "Chiliz",
+      "slug": "chiliz",
+      "change": { "percent": -8.283975509606297, "value": -0.0201783267 },
+      "ohlc": {
+        "o": 0.2435826456,
+        "h": 0.2493373911,
+        "l": 0.2149352451,
+        "c": 0.223380516
+      },
+      "circulatingSupply": 8888888888,
+      "marketCap": 1985604586.4380898,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "SUSHI": {
+      "iso": "SUSHI",
+      "name": "SushiSwap",
+      "slug": "sushiswap",
+      "change": { "percent": -6.307136783923993, "value": -0.2134505835 },
+      "ohlc": {
+        "o": 3.3842707203,
+        "h": 3.3993619421,
+        "l": 3.0775847504,
+        "c": 3.1714463527
+      },
+      "circulatingSupply": 241525204.3006199,
+      "marketCap": 765984228.2721992,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "XYO": {
+      "iso": "XYO",
+      "name": "XYO Network",
+      "slug": "xyo-network",
+      "change": { "percent": -7.761828814460391, "value": -0.00146 },
+      "ohlc": {
+        "o": 0.01881,
+        "h": 0.0188579533,
+        "l": 0.0170569763,
+        "c": 0.01734
+      },
+      "circulatingSupply": 13931226075.98539,
+      "marketCap": 241567460.15758666,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ENJ": {
+      "iso": "ENJ",
+      "name": "Enjin Coin",
+      "slug": "enjin-coin",
+      "change": { "percent": -4.068942888913802, "value": -0.0663910948 },
+      "ohlc": {
+        "o": 1.6316546243,
+        "h": 1.6354138359,
+        "l": 1.4657495746,
+        "c": 1.5691544743
+      },
+      "circulatingSupply": 1000000000,
+      "marketCap": 1569154474.3214583,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "COTI": {
+      "iso": "COTI",
+      "name": "COTI",
+      "slug": "coti",
+      "change": { "percent": -14.188288604723862, "value": -0.0407032997 },
+      "ohlc": {
+        "o": 0.2868795583,
+        "h": 0.2892969656,
+        "l": 0.2373516814,
+        "c": 0.2464784091
+      },
+      "circulatingSupply": 2000000000,
+      "marketCap": 492956818.2481897,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "LPT": {
+      "iso": "LPT",
+      "name": "Livepeer",
+      "slug": "livepeer",
+      "change": { "percent": -5.411197561266816, "value": -1.3029128782 },
+      "ohlc": {
+        "o": 24.0780873998,
+        "h": 24.2250069354,
+        "l": 22.0593704021,
+        "c": 22.8163707192
+      },
+      "circulatingSupply": 24918514.377941355,
+      "marketCap": 568550061.8192132,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ANKR": {
+      "iso": "ANKR",
+      "name": "Ankr",
+      "slug": "ankr",
+      "change": { "percent": -5.21569099844126, "value": -0.0038770867 },
+      "ohlc": {
+        "o": 0.0743350532,
+        "h": 0.0747643558,
+        "l": 0.0667897051,
+        "c": 0.070525133
+      },
+      "circulatingSupply": 10000000000,
+      "marketCap": 705251329.5753274,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "IOTX": {
+      "iso": "IOTX",
+      "name": "IoTeX",
+      "slug": "iotex",
+      "change": { "percent": -6.707972461417657, "value": -0.0052878531 },
+      "ohlc": {
+        "o": 0.0788293798,
+        "h": 0.0792788849,
+        "l": 0.070051344,
+        "c": 0.0734762436
+      },
+      "circulatingSupply": 9490829327.32,
+      "marketCap": 697350487.32094,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "COMP": {
+      "iso": "COMP",
+      "name": "Compound",
+      "slug": "compound",
+      "change": { "percent": -8.811809218900523, "value": -11.5326748593 },
+      "ohlc": {
+        "o": 130.8774914755,
+        "h": 131.4006610287,
+        "l": 115.7043266368,
+        "c": 119.3879339828
+      },
+      "circulatingSupply": 10000000,
+      "marketCap": 1193879339.8282921,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "CELO": {
+      "iso": "CELO",
+      "name": "Celo",
+      "slug": "celo",
+      "change": { "percent": -7.919271307161833, "value": -0.2686118397 },
+      "ohlc": {
+        "o": 3.3918757072,
+        "h": 3.394748617,
+        "l": 3.0438286341,
+        "c": 3.1269547651
+      },
+      "circulatingSupply": 1000000000,
+      "marketCap": 3126954765.0794344,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "NKN": {
+      "iso": "NKN",
+      "name": "NKN",
+      "slug": "nkn",
+      "change": { "percent": -10.486634339896142, "value": -0.0236007248 },
+      "ohlc": {
+        "o": 0.2250552848,
+        "h": 0.226012613,
+        "l": 0.194378107,
+        "c": 0.2012247801
+      },
+      "circulatingSupply": 700000000,
+      "marketCap": 140857346.0705843,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "KSM": {
+      "iso": "KSM",
+      "name": "Kusama",
+      "slug": "kusama",
+      "change": { "percent": -8.378977827101943, "value": -14.0452422636 },
+      "ohlc": {
+        "o": 167.624769434,
+        "h": 169.2142116139,
+        "l": 150.0211716065,
+        "c": 153.5728125901
+      },
+      "circulatingSupply": 9651217.451262059,
+      "marketCap": 1482164608.9087977,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "RLC": {
+      "iso": "RLC",
+      "name": "iExec RLC",
+      "slug": "iexec-rlc",
+      "change": { "percent": -3.9939024446327984, "value": -0.0774887601 },
+      "ohlc": {
+        "o": 1.9401765861,
+        "h": 1.9792333214,
+        "l": 1.7862314045,
+        "c": 1.862736948
+      },
+      "circulatingSupply": 86999784.9868455,
+      "marketCap": 162057713.96045226,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "SKL": {
+      "iso": "SKL",
+      "name": "Skale",
+      "slug": "skale",
+      "change": { "percent": -5.232207131765513, "value": -0.0101584578 },
+      "ohlc": {
+        "o": 0.1941524391,
+        "h": 0.1947944308,
+        "l": 0.1710271575,
+        "c": 0.1840210837
+      },
+      "circulatingSupply": 4677636454.033802,
+      "marketCap": 860783729.6324313,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "KEEP": {
+      "iso": "KEEP",
+      "name": "Keep Network",
+      "slug": "keep-network",
+      "change": { "percent": -7.748463546186279, "value": -0.0447931765 },
+      "ohlc": {
+        "o": 0.578091079,
+        "h": 0.5813030286,
+        "l": 0.5290413665,
+        "c": 0.5332538097
+      },
+      "circulatingSupply": 999848780.8,
+      "marketCap": 533173171.4806608,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ICP": {
+      "iso": "ICP",
+      "name": "Internet Computer",
+      "slug": "internet-computer",
+      "change": { "percent": -5.195069263508579, "value": -0.9003274981 },
+      "ohlc": {
+        "o": 17.3304233763,
+        "h": 17.428046675,
+        "l": 15.619113522,
+        "c": 16.4278929892
+      },
+      "circulatingSupply": 479878549.90713537,
+      "marketCap": 7883393465.696982,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "SOL": {
+      "iso": "SOL",
+      "name": "Solana",
+      "slug": "solana",
+      "change": { "percent": -8.414828786185264, "value": -9.3346461368 },
+      "ohlc": {
+        "o": 110.9309098738,
+        "h": 111.779673956,
+        "l": 98.2079537339,
+        "c": 101.4610818526
+      },
+      "circulatingSupply": 519387553.02083063,
+      "marketCap": 52697623030.26128,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "WBTC": {
+      "iso": "WBTC",
+      "name": "Wrapped Bitcoin",
+      "slug": "wrapped-bitcoin",
+      "change": { "percent": -5.521997242696683, "value": -2334.9229807633 },
+      "ohlc": {
+        "o": 42284.0301822213,
+        "h": 42361.7578510954,
+        "l": 39232.3154413967,
+        "c": 39964.9076732733
+      },
+      "circulatingSupply": 275829.66608794,
+      "marketCap": 11023507138.754318,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "XRP": {
+      "iso": "XRP",
+      "name": "XRP",
+      "slug": "xrp",
+      "change": { "percent": -5.259462830165709, "value": -0.0389651584 },
+      "ohlc": {
+        "o": 0.7408581384,
+        "h": 0.7445574275,
+        "l": 0.6818001987,
+        "c": 0.7022715742
+      },
+      "circulatingSupply": 99989492240.63806,
+      "marketCap": 70219778122.05576,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "FIL": {
+      "iso": "FIL",
+      "name": "Filecoin",
+      "slug": "filecoin",
+      "change": { "percent": -9.11327941479148, "value": -1.8795485699 },
+      "ohlc": {
+        "o": 20.6242833596,
+        "h": 20.6830978718,
+        "l": 18.0060632889,
+        "c": 18.7749903385
+      },
+      "circulatingSupply": 189287872,
+      "marketCap": 3553877968.0024056,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "DOT": {
+      "iso": "DOT",
+      "name": "Polkadot",
+      "slug": "polkadot",
+      "change": { "percent": -7.724579736092057, "value": -1.4697370137 },
+      "ohlc": {
+        "o": 19.0267569745,
+        "h": 19.0539541302,
+        "l": 17.0042279883,
+        "c": 17.5548164659
+      },
+      "circulatingSupply": 1154869716.897853,
+      "marketCap": 20273525922.162643,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "BAT": {
+      "iso": "BAT",
+      "name": "Basic Attention Token",
+      "slug": "basic-attention-token",
+      "change": { "percent": -4.481929347826085, "value": -0.032987 },
+      "ohlc": { "o": 0.736, "h": 0.738, "l": 0.66735, "c": 0.703013 },
+      "circulatingSupply": 1500000000,
+      "marketCap": 1054519500,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "MATIC": {
+      "iso": "MATIC",
+      "name": "Polygon",
+      "slug": "polygon",
+      "change": { "percent": -4.9860485427898436, "value": -0.0712079496 },
+      "ohlc": {
+        "o": 1.4281439299,
+        "h": 1.4282144872,
+        "l": 1.3141155643,
+        "c": 1.357978838
+      },
+      "circulatingSupply": 10000000000,
+      "marketCap": 13579788380.166595,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "BSV": {
+      "iso": "BSV",
+      "name": "Bitcoin SV",
+      "slug": "bitcoin-sv",
+      "change": { "percent": -4.814351533344523, "value": -4.0865614002 },
+      "ohlc": {
+        "o": 84.8829042069,
+        "h": 85.6278578315,
+        "l": 79.3082303323,
+        "c": 80.919256247
+      },
+      "circulatingSupply": 19028635.04475786,
+      "marketCap": 1539782995.217534,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "XLM": {
+      "iso": "XLM",
+      "name": "Stellar",
+      "slug": "stellar",
+      "change": { "percent": -4.118489041387913, "value": -0.008114 },
+      "ohlc": { "o": 0.197014, "h": 0.198185, "l": 0.185917, "c": 0.1889 },
+      "circulatingSupply": 708271.6144827,
+      "marketCap": 133792.507975782,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "MLN": {
+      "iso": "MLN",
+      "name": "Enzyme",
+      "slug": "melon",
+      "change": { "percent": -5.7605769877242645, "value": -3.2542553305 },
+      "ohlc": {
+        "o": 56.4918295071,
+        "h": 56.6979137014,
+        "l": 51.8184911261,
+        "c": 53.2891035384
+      },
+      "circulatingSupply": 2125037.3190986537,
+      "marketCap": 113241333.72045973,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "KAVA": {
+      "iso": "KAVA",
+      "name": "Kava.io",
+      "slug": "kava",
+      "change": { "percent": -12.108052878232867, "value": -0.5581827329 },
+      "ohlc": {
+        "o": 4.610012349,
+        "h": 4.7257803193,
+        "l": 3.9873922708,
+        "c": 4.0624108266
+      },
+      "circulatingSupply": 180243254,
+      "marketCap": 732222146.473054,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "XEM": {
+      "iso": "XEM",
+      "name": "NEM",
+      "slug": "nem",
+      "change": { "percent": -5.696429674672808, "value": -0.0058014349 },
+      "ohlc": {
+        "o": 0.1018433523,
+        "h": 0.1019469875,
+        "l": 0.0940413346,
+        "c": 0.0960574893
+      },
+      "circulatingSupply": 8999999999,
+      "marketCap": 864517403.2695783,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "LSK": {
+      "iso": "LSK",
+      "name": "Lisk",
+      "slug": "lisk",
+      "change": { "percent": -4.988942208412926, "value": -0.1053535777 },
+      "ohlc": {
+        "o": 2.1117417943,
+        "h": 2.1196821764,
+        "l": 1.9774281702,
+        "c": 2.0065790972
+      },
+      "circulatingSupply": 144818773,
+      "marketCap": 290590322.7776862,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "QTUM": {
+      "iso": "QTUM",
+      "name": "Qtum",
+      "slug": "qtum",
+      "change": { "percent": -5.293785525936581, "value": -0.353092628 },
+      "ohlc": {
+        "o": 6.6699458508,
+        "h": 6.6922049285,
+        "l": 6.0583798351,
+        "c": 6.3254313796
+      },
+      "circulatingSupply": 104119357.5,
+      "marketCap": 658599851.1540226,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "DCR": {
+      "iso": "DCR",
+      "name": "Decred",
+      "slug": "decred",
+      "change": { "percent": -7.453935783675532, "value": -4.317168377 },
+      "ohlc": {
+        "o": 57.917971153,
+        "h": 58.1368609346,
+        "l": 52.4560930147,
+        "c": 53.6966345546
+      },
+      "circulatingSupply": 14037453.85818011,
+      "marketCap": 753764029.8996261,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "DNT": {
+      "iso": "DNT",
+      "name": "district0x",
+      "slug": "district0x",
+      "change": { "percent": 2.9591425930501045, "value": 0.0039966153 },
+      "ohlc": {
+        "o": 0.1350599095,
+        "h": 0.1540704201,
+        "l": 0.1259485294,
+        "c": 0.1415541056
+      },
+      "circulatingSupply": 1000000000,
+      "marketCap": 141554105.57681185,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "DAI": {
+      "iso": "DAI",
+      "name": "Dai",
+      "slug": "dai",
+      "change": { "percent": -0.009574829722674143, "value": -0.0000957396 },
+      "ohlc": {
+        "o": 0.9999095458,
+        "h": 1.0006099534,
+        "l": 0.9989415356,
+        "c": 0.9998123674
+      },
+      "circulatingSupply": 8801356853.360043,
+      "marketCap": 8799705432.235811,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ANT": {
+      "iso": "ANT",
+      "name": "Aragon",
+      "slug": "aragon",
+      "change": { "percent": -6.950771133223538, "value": -0.315901499 },
+      "ohlc": {
+        "o": 4.5448410387,
+        "h": 4.5860349274,
+        "l": 4.0958408429,
+        "c": 4.2279078596
+      },
+      "circulatingSupply": 39609523.809523806,
+      "marketCap": 167465417.0295871,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "REP": {
+      "iso": "REP",
+      "name": "Augur",
+      "slug": "augur",
+      "change": { "percent": -4.74489393719047, "value": -0.654811855 },
+      "ohlc": {
+        "o": 13.8003475661,
+        "h": 13.8257570037,
+        "l": 12.9430049001,
+        "c": 13.1566946164
+      },
+      "circulatingSupply": 11000000,
+      "marketCap": 144723640.78063554,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "BAND": {
+      "iso": "BAND",
+      "name": "Band Protocol",
+      "slug": "band-protocol",
+      "change": { "percent": -6.380654417941758, "value": -0.2510256581 },
+      "ohlc": {
+        "o": 3.9341679026,
+        "h": 3.9569894657,
+        "l": 3.5014313374,
+        "c": 3.6799145603
+      },
+      "circulatingSupply": 100000000,
+      "marketCap": 367991456.026017,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "NMR": {
+      "iso": "NMR",
+      "name": "Numeraire",
+      "slug": "numeraire",
+      "change": { "percent": -6.4530747218583295, "value": -1.7986351232 },
+      "ohlc": {
+        "o": 27.8725289996,
+        "h": 27.9396723991,
+        "l": 25.7353803278,
+        "c": 26.0824645518
+      },
+      "circulatingSupply": 10954099.25809467,
+      "marketCap": 285709905.5956469,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "PAX": {
+      "iso": "PAX",
+      "name": "Paxos Standard",
+      "slug": "paxos-standard",
+      "change": { "percent": -0.13357147919766668, "value": -0.0013351736 },
+      "ohlc": {
+        "o": 0.9995948422,
+        "h": 1.001998513,
+        "l": 0.9902419621,
+        "c": 0.9998784174
+      },
+      "circulatingSupply": 998518090.27,
+      "marketCap": 998396687.8465446,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "STORJ": {
+      "iso": "STORJ",
+      "name": "Storj",
+      "slug": "storj",
+      "change": { "percent": -7.302823162083765, "value": -0.0788355171 },
+      "ohlc": {
+        "o": 1.0795211025,
+        "h": 1.0831748948,
+        "l": 0.9756981413,
+        "c": 1.0023137917
+      },
+      "circulatingSupply": 424999998.00001335,
+      "marketCap": 425983359.45654833,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "CVC": {
+      "iso": "CVC",
+      "name": "Civic",
+      "slug": "civic",
+      "change": { "percent": -6.113575874192391, "value": -0.0175005529 },
+      "ohlc": {
+        "o": 0.2862572286,
+        "h": 0.2870268334,
+        "l": 0.2556129705,
+        "c": 0.2687601822
+      },
+      "circulatingSupply": 1000000000,
+      "marketCap": 268760182.2285578,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "BNT": {
+      "iso": "BNT",
+      "name": "Bancor",
+      "slug": "bancor",
+      "change": { "percent": -8.024500173830601, "value": -0.1987286088 },
+      "ohlc": {
+        "o": 2.4765232039,
+        "h": 2.4818482292,
+        "l": 2.2238658901,
+        "c": 2.2762818375
+      },
+      "circulatingSupply": 260092984.9831599,
+      "marketCap": 592044937.7836882,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "NU": {
+      "iso": "NU",
+      "name": "NuCypher",
+      "slug": "nucypher",
+      "change": { "percent": -7.359423059112183, "value": -0.0295941407 },
+      "ohlc": {
+        "o": 0.4021258255,
+        "h": 0.4088022194,
+        "l": 0.3654491791,
+        "c": 0.3723891312
+      },
+      "circulatingSupply": 3885390081.7482486,
+      "marketCap": 1446877037.0143507,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "LTC": {
+      "iso": "LTC",
+      "name": "Litecoin",
+      "slug": "litecoin",
+      "change": { "percent": -5.404517261480132, "value": -5.899666 },
+      "ohlc": {
+        "o": 109.161757,
+        "h": 109.747743,
+        "l": 101.926332,
+        "c": 103.262091
+      },
+      "circulatingSupply": 70041575.32400475,
+      "marketCap": 7232639524.890734,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "BCH": {
+      "iso": "BCH",
+      "name": "Bitcoin Cash",
+      "slug": "bitcoin-cash",
+      "change": { "percent": -4.561825045150717, "value": -14.470097 },
+      "ohlc": {
+        "o": 317.199736,
+        "h": 317.749165,
+        "l": 291.21,
+        "c": 302.729639
+      },
+      "circulatingSupply": 19032723.12430619,
+      "marketCap": 5761769400.608166,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "ADA": {
+      "iso": "ADA",
+      "name": "Cardano",
+      "slug": "cardano",
+      "change": { "percent": -8.202262483757913, "value": -0.083767 },
+      "ohlc": { "o": 1.021267, "h": 1.0233, "l": 0.916226, "c": 0.9375 },
+      "circulatingSupply": 33151248119.788963,
+      "marketCap": 31079295112.302155,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "UNI": {
+      "iso": "UNI",
+      "name": "Uniswap",
+      "slug": "uniswap",
+      "change": { "percent": -5.232082478368411, "value": -0.5091431509 },
+      "ohlc": {
+        "o": 9.7311759323,
+        "h": 9.7470656774,
+        "l": 8.9092169054,
+        "c": 9.230355632
+      },
+      "circulatingSupply": 1000000000,
+      "marketCap": 9230355631.988308,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "REN": {
+      "iso": "REN",
+      "name": "Ren",
+      "slug": "ren",
+      "change": { "percent": -9.428313448929213, "value": -0.0345110514 },
+      "ohlc": {
+        "o": 0.3660363177,
+        "h": 0.3680303724,
+        "l": 0.3168885245,
+        "c": 0.3318314688
+      },
+      "circulatingSupply": 999999632.80375,
+      "marketCap": 331831346.92402756,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "EOS": {
+      "iso": "EOS",
+      "name": "EOS",
+      "slug": "eos",
+      "change": { "percent": -5.060344827586205, "value": -0.1174 },
+      "ohlc": { "o": 2.32, "h": 2.33, "l": 2.1227, "c": 2.2026 },
+      "circulatingSupply": 990660639.0962,
+      "marketCap": 2182029123.67329,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "GRT": {
+      "iso": "GRT",
+      "name": "The Graph",
+      "slug": "the-graph",
+      "change": { "percent": -6.0381456791986, "value": -0.0230215475 },
+      "ohlc": {
+        "o": 0.3812685011,
+        "h": 0.3840735842,
+        "l": 0.3418347419,
+        "c": 0.3588082302
+      },
+      "circulatingSupply": 10344978514.64984,
+      "marketCap": 3711863432.5293474,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "IOTA": {
+      "iso": "IOTA",
+      "name": "IOTA",
+      "slug": "iota",
+      "change": { "percent": -8.222352683124221, "value": -0.0582999866 },
+      "ohlc": {
+        "o": 0.7090426408,
+        "h": 0.7093638071,
+        "l": 0.6376931258,
+        "c": 0.6506348875
+      },
+      "circulatingSupply": 2779530283.277761,
+      "marketCap": 1808459373.1518354,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "AAVE": {
+      "iso": "AAVE",
+      "name": "Aave",
+      "slug": "aave",
+      "change": { "percent": -7.267804026213806, "value": -12.6520269495 },
+      "ohlc": {
+        "o": 174.0832155609,
+        "h": 174.4614664518,
+        "l": 155.7417965789,
+        "c": 161.5397304955
+      },
+      "circulatingSupply": 16000000,
+      "marketCap": 2584635687.9285955,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "NANO": {
+      "iso": "NANO",
+      "name": "Nano",
+      "slug": "nano",
+      "change": { "percent": -7.419493014073407, "value": -0.178108574 },
+      "ohlc": {
+        "o": 2.4005491163,
+        "h": 2.4186514981,
+        "l": 2.1894984506,
+        "c": 2.2227564234
+      },
+      "circulatingSupply": 133248290,
+      "marketCap": 296178492.4992605,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "KNC": {
+      "iso": "KNC",
+      "name": "Kyber Network",
+      "slug": "kyber-network",
+      "change": { "percent": -4.946218125956334, "value": -0.2137360944 },
+      "ohlc": {
+        "o": 4.3212023604,
+        "h": 4.4490920245,
+        "l": 3.8808986466,
+        "c": 4.1088844062
+      },
+      "circulatingSupply": 56329504.41526464,
+      "marketCap": 231451422.30337888,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "USDC": {
+      "iso": "USDC",
+      "name": "USD Coin",
+      "slug": "usdc",
+      "change": { "percent": 0.0017600037125569893, "value": 0.0000176029 },
+      "ohlc": {
+        "o": 1.0001650712,
+        "h": 1.0010520845,
+        "l": 0.9985622739,
+        "c": 1.0000779944
+      },
+      "circulatingSupply": 44993141768.65955,
+      "marketCap": 44996650981.06183,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "DASH": {
+      "iso": "DASH",
+      "name": "Dash",
+      "slug": "dash",
+      "change": { "percent": -6.57001705944408, "value": -7.1952377214 },
+      "ohlc": {
+        "o": 109.5162715152,
+        "h": 109.8142333278,
+        "l": 98.7688418886,
+        "c": 102.2449071072
+      },
+      "circulatingSupply": 10668884.07595208,
+      "marketCap": 1090839061.2833111,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "XTZ": {
+      "iso": "XTZ",
+      "name": "Tezos",
+      "slug": "tezos",
+      "change": { "percent": -2.1351704707243764, "value": -0.066811 },
+      "ohlc": { "o": 3.129071, "h": 3.14, "l": 2.9481, "c": 3.06226 },
+      "circulatingSupply": 888560043.604542,
+      "marketCap": 2721001879.128445,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "BTT": {
+      "iso": "BTT",
+      "name": "BitTorrent",
+      "slug": "bittorrent",
+      "change": { "percent": -5.728155300639241, "value": -1.1e-7 },
+      "ohlc": {
+        "o": 0.0000019205,
+        "h": 0.0000019312,
+        "l": 0.0000017902,
+        "c": 0.0000018105
+      },
+      "circulatingSupply": 990000000000000,
+      "marketCap": 1792353174.9454513,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "WAVES": {
+      "iso": "WAVES",
+      "name": "Waves",
+      "slug": "waves",
+      "change": { "percent": 1.76403493936201, "value": 0.4005689896 },
+      "ohlc": {
+        "o": 22.7075428436,
+        "h": 23.9435623908,
+        "l": 21.2522551115,
+        "c": 23.0982655518
+      },
+      "circulatingSupply": 107981338,
+      "marketCap": 2494181619.763788,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "OXT": {
+      "iso": "OXT",
+      "name": "Orchid",
+      "slug": "oxt",
+      "change": { "percent": -8.021556414424097, "value": -0.0211803908 },
+      "ohlc": {
+        "o": 0.2640434064,
+        "h": 0.2650896197,
+        "l": 0.2382565008,
+        "c": 0.2430608596
+      },
+      "circulatingSupply": 1000000000,
+      "marketCap": 243060859.57363412,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "MKR": {
+      "iso": "MKR",
+      "name": "Maker",
+      "slug": "maker",
+      "change": { "percent": -8.55839229725886, "value": -172.8374575778 },
+      "ohlc": {
+        "o": 2019.5084727901,
+        "h": 2031.3285927753,
+        "l": 1800.0429863846,
+        "c": 1847.4868126397
+      },
+      "circulatingSupply": 977631.0369508882,
+      "marketCap": 1806160448.394069,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ALGO": {
+      "iso": "ALGO",
+      "name": "Algorand",
+      "slug": "algorand",
+      "change": { "percent": -6.9517843161065676, "value": -0.0527230553 },
+      "ohlc": {
+        "o": 0.7584104015,
+        "h": 0.760933563,
+        "l": 0.6816338233,
+        "c": 0.7057599109
+      },
+      "circulatingSupply": 7140100053.79576,
+      "marketCap": 5039196377.531637,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "FET": {
+      "iso": "FET",
+      "name": "Fetch.ai",
+      "slug": "fetch",
+      "change": { "percent": -6.764626298494533, "value": -0.0251779024 },
+      "ohlc": {
+        "o": 0.3721994571,
+        "h": 0.3743358034,
+        "l": 0.3319777179,
+        "c": 0.3467487986
+      },
+      "circulatingSupply": 1152997575,
+      "marketCap": 399800523.8654492,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "BTG": {
+      "iso": "BTG",
+      "name": "Bitcoin Gold",
+      "slug": "bitcoin-gold",
+      "change": { "percent": -4.127537846972028, "value": -1.4533545989 },
+      "ohlc": {
+        "o": 35.2111755922,
+        "h": 35.2924766025,
+        "l": 32.5082572659,
+        "c": 33.7943182636
+      },
+      "circulatingSupply": 19021238.65456671,
+      "marketCap": 642809792.860302,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ZRX": {
+      "iso": "ZRX",
+      "name": "0x",
+      "slug": "0x",
+      "change": { "percent": -7.893828402176757, "value": -0.0578126674 },
+      "ohlc": {
+        "o": 0.7323780616,
+        "h": 0.7397827297,
+        "l": 0.6614890063,
+        "c": 0.6751685634
+      },
+      "circulatingSupply": 1000000000,
+      "marketCap": 675168563.4486197,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ZEC": {
+      "iso": "ZEC",
+      "name": "Zcash",
+      "slug": "zcash",
+      "change": { "percent": -9.717334258104525, "value": -15.584086 },
+      "ohlc": { "o": 160.374086, "h": 161.29, "l": 141.64, "c": 144.79 },
+      "circulatingSupply": 12323730.78698023,
+      "marketCap": 1784352980.6468675,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "LRC": {
+      "iso": "LRC",
+      "name": "Loopring",
+      "slug": "loopring",
+      "change": { "percent": -8.779735177637978, "value": -0.083237727 },
+      "ohlc": {
+        "o": 0.948066488,
+        "h": 0.9521780006,
+        "l": 0.8365027403,
+        "c": 0.8653072213
+      },
+      "circulatingSupply": 1373873440.4424574,
+      "marketCap": 1188822609.1295555,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "MANA": {
+      "iso": "MANA",
+      "name": "Decentraland",
+      "slug": "decentraland",
+      "change": { "percent": -6.27181924594227, "value": -0.1405496942 },
+      "ohlc": {
+        "o": 2.2409716968,
+        "h": 2.2595328904,
+        "l": 2.0350540052,
+        "c": 2.103616953
+      },
+      "circulatingSupply": 2193702127.320146,
+      "marketCap": 4614708984.871233,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "OMG": {
+      "iso": "OMG",
+      "name": "OmiseGO",
+      "slug": "omisego",
+      "change": { "percent": -7.011139022060605, "value": -0.3236482138 },
+      "ohlc": {
+        "o": 4.6162002032,
+        "h": 4.6267708265,
+        "l": 4.1662133455,
+        "c": 4.29520829
+      },
+      "circulatingSupply": 140245398.24513277,
+      "marketCap": 602383197.1708436,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "XMR": {
+      "iso": "XMR",
+      "name": "Monero",
+      "slug": "monero",
+      "change": { "percent": -1.2608930377245218, "value": -3.0726141914 },
+      "ohlc": {
+        "o": 243.6855545639,
+        "h": 245.8918073733,
+        "l": 215.6046907645,
+        "c": 240.06290942
+      },
+      "circulatingSupply": 18105644.896721613,
+      "marketCap": 4346493790.831533,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ICX": {
+      "iso": "ICX",
+      "name": "ICON",
+      "slug": "icon",
+      "change": { "percent": -6.714743752633197, "value": -0.0532664667 },
+      "ohlc": {
+        "o": 0.793276239,
+        "h": 0.8030806417,
+        "l": 0.717792742,
+        "c": 0.7392120179
+      },
+      "circulatingSupply": 927153375.7569277,
+      "marketCap": 685362917.7736247,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ETC": {
+      "iso": "ETC",
+      "name": "Ethereum Classic",
+      "slug": "ethereum-classic",
+      "change": { "percent": -5.250675307895122, "value": -2.085356 },
+      "ohlc": { "o": 39.715958, "h": 39.93, "l": 35.8533, "c": 37.630602 },
+      "circulatingSupply": 134278085.20573,
+      "marketCap": 5052965181.698914,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "TRX": {
+      "iso": "TRX",
+      "name": "Tron",
+      "slug": "tron",
+      "change": { "percent": -5.281476370057342, "value": -0.0032692769 },
+      "ohlc": {
+        "o": 0.0619008145,
+        "h": 0.062056382,
+        "l": 0.0577550967,
+        "c": 0.0586308886
+      },
+      "circulatingSupply": 101662850853.247,
+      "marketCap": 5960583281.281976,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "YFI": {
+      "iso": "YFI",
+      "name": "Yearn Finance",
+      "slug": "yearn-finance",
+      "change": { "percent": -5.421053031530614, "value": -1087.681150476 },
+      "ohlc": {
+        "o": 20064.0197420996,
+        "h": 20094.7885187058,
+        "l": 18229.0109134396,
+        "c": 18968.8444236459
+      },
+      "circulatingSupply": 36666,
+      "marketCap": 695511649.6374013,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "NEO": {
+      "iso": "NEO",
+      "name": "NEO",
+      "slug": "neo",
+      "change": { "percent": -6.180077734524157, "value": -1.3187222085 },
+      "ohlc": {
+        "o": 21.3382786623,
+        "h": 21.3968556982,
+        "l": 19.2672156384,
+        "c": 20.0295094225
+      },
+      "circulatingSupply": 100000000,
+      "marketCap": 2002950942.2521684,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "PAXG": {
+      "iso": "PAXG",
+      "name": "PAX Gold",
+      "slug": "pax-gold",
+      "change": { "percent": 0.7936642822150689, "value": 15.4314991249 },
+      "ohlc": {
+        "o": 1944.3358445952,
+        "h": 1968.763843638,
+        "l": 1941.4211660311,
+        "c": 1959.8505327775
+      },
+      "circulatingSupply": 317658.964,
+      "marketCap": 622564089.8369554,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "DOGE": {
+      "iso": "DOGE",
+      "name": "Dogecoin",
+      "slug": "dogecoin",
+      "change": { "percent": -7.098451001808882, "value": -0.0104649901 },
+      "ohlc": {
+        "o": 0.1474263901,
+        "h": 0.1477321342,
+        "l": 0.1329677262,
+        "c": 0.137122435
+      },
+      "circulatingSupply": 133974915486.8543,
+      "marketCap": 18370966639.54876,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "SC": {
+      "iso": "SC",
+      "name": "Siacoin",
+      "slug": "siacoin",
+      "change": { "percent": -9.420322809900389, "value": -0.0010148979 },
+      "ohlc": {
+        "o": 0.0107734942,
+        "h": 0.0107939174,
+        "l": 0.0094947821,
+        "c": 0.0097583446
+      },
+      "circulatingSupply": 50673082992,
+      "marketCap": 494485403.3579453,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ATOM": {
+      "iso": "ATOM",
+      "name": "Cosmos",
+      "slug": "cosmos",
+      "change": { "percent": -7.753838576872455, "value": -2.0370938429 },
+      "ohlc": {
+        "o": 26.272069281,
+        "h": 26.5137094036,
+        "l": 23.3175956359,
+        "c": 24.2656136548
+      },
+      "circulatingSupply": 292596781.833778,
+      "marketCap": 7100040464.623815,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "LINK": {
+      "iso": "LINK",
+      "name": "Chainlink",
+      "slug": "chainlink",
+      "change": { "percent": -7.115719213874056, "value": -1.065735 },
+      "ohlc": { "o": 14.977193, "h": 14.987096, "l": 13.54, "c": 13.911458 },
+      "circulatingSupply": 1000000000,
+      "marketCap": 13911458000,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "USDT": {
+      "iso": "USDT",
+      "name": "Tether",
+      "slug": "tether",
+      "change": { "percent": -0.006852194562559597, "value": -0.0000685473 },
+      "ohlc": {
+        "o": 1.0003702242,
+        "h": 1.0012030744,
+        "l": 0.9989563456,
+        "c": 1.0002885161
+      },
+      "circulatingSupply": 81559082567.1597,
+      "marketCap": 81582613673.92575,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "LUNA": {
+      "iso": "LUNA",
+      "name": "Terra",
+      "slug": "terra",
+      "change": { "percent": -6.315034395008573, "value": -5.6277970382 },
+      "ohlc": {
+        "o": 89.1174407961,
+        "h": 89.1176915237,
+        "l": 80.7121993865,
+        "c": 83.5029339865
+      },
+      "circulatingSupply": 748071115.421888,
+      "marketCap": 62466132968.313255,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "SHIB": {
+      "iso": "SHIB",
+      "name": "Shiba Inu",
+      "slug": "shiba-inu",
+      "change": { "percent": -7.702005012934392, "value": -0.0000018798 },
+      "ohlc": {
+        "o": 0.0000244065,
+        "h": 0.0000244474,
+        "l": 0.0000218489,
+        "c": 0.0000225423
+      },
+      "circulatingSupply": 589732809699381,
+      "marketCap": 13293946828.481823,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "ETH": {
+      "iso": "ETH",
+      "name": "Ethereum",
+      "slug": "ethereum",
+      "change": { "percent": -5.659707844706075, "value": -179.883244 },
+      "ohlc": { "o": 3178.313244, "h": 3189.4, "l": 2951, "c": 2998.43 },
+      "circulatingSupply": 118235637.25321473,
+      "marketCap": 354521281809.1566,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "AVAX": {
+      "iso": "AVAX",
+      "name": "Avalanche",
+      "slug": "avalanche",
+      "change": { "percent": -4.258642295343932, "value": -3.3982508395 },
+      "ohlc": {
+        "o": 79.7965784347,
+        "h": 80.2603256037,
+        "l": 72.7535823138,
+        "c": 76.5252253545
+      },
+      "circulatingSupply": 401723602.25002575,
+      "marketCap": 30741989192.424767,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "CRV": {
+      "iso": "CRV",
+      "name": "Curve DAO Token",
+      "slug": "curve-dao-token",
+      "change": { "percent": -7.252479891751246, "value": -0.1723140068 },
+      "ohlc": {
+        "o": 2.3759322245,
+        "h": 2.3759840765,
+        "l": 2.1391655646,
+        "c": 2.2047520904
+      },
+      "circulatingSupply": 1725300418.3012369,
+      "marketCap": 3803859703.8489313,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "AXS": {
+      "iso": "AXS",
+      "name": "Axie Infinity",
+      "slug": "axie-infinity",
+      "change": { "percent": 0.5120951786895332, "value": 0.2434103057 },
+      "ohlc": {
+        "o": 47.532239286,
+        "h": 47.9973430737,
+        "l": 44.1350035397,
+        "c": 47.888840532
+      },
+      "circulatingSupply": 270000000,
+      "marketCap": 12929986943.639238,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "AMP": {
+      "iso": "AMP",
+      "name": "Amp",
+      "slug": "amp",
+      "change": { "percent": -4.357903718375418, "value": -0.0010609017 },
+      "ohlc": {
+        "o": 0.024344312,
+        "h": 0.024352382,
+        "l": 0.0224863976,
+        "c": 0.0232952744
+      },
+      "circulatingSupply": 99443818216.90965,
+      "marketCap": 2316571028.4814334,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "SNX": {
+      "iso": "SNX",
+      "name": "Synthetix",
+      "slug": "synthetix",
+      "change": { "percent": -7.243305070143861, "value": -0.360762814 },
+      "ohlc": {
+        "o": 4.9806381276,
+        "h": 5.0183225019,
+        "l": 4.4425144361,
+        "c": 4.6215818666
+      },
+      "circulatingSupply": 252840223.27766272,
+      "marketCap": 1168521791.057887,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "UMA": {
+      "iso": "UMA",
+      "name": "UMA Protocol",
+      "slug": "uma-protocol",
+      "change": { "percent": -9.167165951938545, "value": -0.6313943923 },
+      "ohlc": {
+        "o": 6.8875636764,
+        "h": 7.0539209669,
+        "l": 6.0672591954,
+        "c": 6.2577049483
+      },
+      "circulatingSupply": 106663511.34187761,
+      "marketCap": 667468782.7240759,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "SAND": {
+      "iso": "SAND",
+      "name": "The Sandbox",
+      "slug": "the-sandbox",
+      "change": { "percent": -4.078937128642631, "value": -0.1168964603 },
+      "ohlc": {
+        "o": 2.8658558974,
+        "h": 2.8701007218,
+        "l": 2.645298542,
+        "c": 2.7548869446
+      },
+      "circulatingSupply": 3000000000,
+      "marketCap": 8264660833.826115,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "UST": {
+      "iso": "UST",
+      "name": "TerraUSD",
+      "slug": "terrausd",
+      "change": { "percent": -0.03608797019025563, "value": -0.0003611173 },
+      "ohlc": {
+        "o": 1.0006584733,
+        "h": 1.0014776508,
+        "l": 0.9994902852,
+        "c": 1.0004689345
+      },
+      "circulatingSupply": 16762772066.996788,
+      "marketCap": 16770632708.628696,
+      "ts": 1649740015000,
+      "src": "cd"
+    },
+    "BTC": {
+      "iso": "BTC",
+      "name": "Bitcoin",
+      "slug": "bitcoin",
+      "change": { "percent": -5.464737899358042, "value": -2308.29134 },
+      "ohlc": {
+        "o": 42239.744751,
+        "h": 42357.2,
+        "l": 39253.694,
+        "c": 39931.453411
+      },
+      "circulatingSupply": 19008985.93072625,
+      "marketCap": 759056436083.1497,
+      "ts": 1649739959000,
+      "src": "tb"
+    },
+    "SNGLS": {
+      "iso": "SNGLS",
+      "name": "SingularDTV",
+      "slug": "singulardtv",
+      "change": { "percent": 0, "value": 0 },
+      "ohlc": {
+        "o": 0.0004021,
+        "h": 0.0004021,
+        "l": 0.0004021,
+        "c": 0.0004021
+      },
+      "circulatingSupply": 1000000000,
+      "marketCap": 402100,
+      "ts": "2021-10-07T01:50:00.000Z",
+      "src": "cd"
+    }
+  }
+}
