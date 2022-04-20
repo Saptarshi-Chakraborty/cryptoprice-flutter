@@ -70,9 +70,9 @@ class _CoinDetailsState extends State<CoinDetails> {
       body: DetailsCard(
         iso: data['iso'],
         name: name,
-        price: price,
-        highestPrice: double.parse((highestPrice).toStringAsFixed(2)),
-        lowestPrice: double.parse((lowestPrice).toStringAsFixed(2)),
+        price: double.parse((price).toStringAsFixed(6)),
+        highestPrice: double.parse((highestPrice).toStringAsFixed(3)),
+        lowestPrice: double.parse((lowestPrice).toStringAsFixed(3)),
         change: double.parse((change).toStringAsFixed(2)),
         marketCapital: marketCapital,
         callback: MyCallback,
@@ -94,7 +94,8 @@ class DetailsCard extends StatelessWidget {
   final dynamic price, highestPrice, lowestPrice, marketCapital, change;
   final VoidCallback callback;
 
-  const DetailsCard({Key? key, 
+  const DetailsCard({
+    Key? key,
     required this.iso,
     required this.name,
     this.price,
@@ -222,13 +223,14 @@ class DetailsCard extends StatelessWidget {
               ),
             ],
           ),
+
+          const SizedBox(height: 10.0),
+
           const Divider(
             height: 30.0,
             thickness: 2.0,
             color: Colors.white,
           ),
-
-          const SizedBox(height: 10.0),
 
           // Highest Price
           Row(
@@ -274,7 +276,7 @@ class DetailsCard extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: EdgeInsets.fromLTRB(2, 0, 6, 0),
+                padding: EdgeInsets.fromLTRB(6, 0, 2, 0),
                 child: Icon(Icons.keyboard_double_arrow_left_rounded,
                     color: Colors.blue[100]),
               ),
@@ -317,6 +319,7 @@ class DetailsCard extends StatelessWidget {
 
           Divider(height: 30.0, thickness: 2.0, color: Colors.white),
 
+          // The Refresh button
           Expanded(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.end,
@@ -347,7 +350,7 @@ class DetailsCard extends StatelessWidget {
                             'Refresh',
                             style: TextStyle(
                               color: Colors.brown[800],
-                              fontSize: 25.0,
+                              fontSize: 20.0,
                               fontFamily: 'Ubuntu',
                               // letterSpacing: 1.0,
                             ),

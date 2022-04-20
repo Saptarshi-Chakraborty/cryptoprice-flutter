@@ -1,5 +1,5 @@
 name: cryptoprice
-description: A new Flutter project.
+description: Get 90+ Cryptocurrency Prices
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -82,6 +82,10 @@ flutter:
     - family: Ubuntu
       fonts:
         - asset: fonts/Ubuntu-Bold.ttf
+
+    - family: Cabin
+      fonts:
+        - asset: fonts/Cabin-VariableFont_wdth,wght.ttf
 
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic

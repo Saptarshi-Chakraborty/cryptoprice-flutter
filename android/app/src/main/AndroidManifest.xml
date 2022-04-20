@@ -2,7 +2,7 @@
     package="com.example.cryptoprice">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
-        android:label="cryptoprice"
+        android:label="Crypto Price"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

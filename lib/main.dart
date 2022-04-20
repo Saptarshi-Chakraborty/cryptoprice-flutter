@@ -1,4 +1,3 @@
-// import 'package:cryptoprice/_getAllCoin.dart';
 import 'dart:convert';
 import 'dart:io';
 
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "My Title",
+      title: "Crypto Price",
       // initialRoute: '/details',
       routes: {'/details': (context) => CoinDetails()},
       scrollBehavior: const ScrollBehavior(
@@ -88,18 +87,17 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.grey[850],
         elevation: 0.0,
         centerTitle: true,
-        title: Text(
-          'Crypto-Currency Prices',
+        title: const Text(
+          '90+ Crypto Currency Prices',
           style: TextStyle(
-            color: Colors.orange[600],
+            color: Colors.tealAccent,
             fontWeight: FontWeight.w400,
             fontFamily: 'Ubuntu',
-            // fontSize: 20.0,
           ),
         ),
       ),
       body: Container(
-        padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
+        padding: EdgeInsets.symmetric(horizontal: 10.0, vertical: 4.0),
         child: ListView.builder(
           itemCount: _noOfItem,
           itemBuilder: (context, index) {
@@ -107,18 +105,6 @@ class _HomeState extends State<Home> {
                 _data[index].item['ohlc']['c']);
           },
         ), // child: ListView(
-        //   scrollDirection: Axis.vertical,
-        //   children: [
-        //     HomeCard(),
-        //     HomeCard(),
-        //     HomeCard(),
-        //     HomeCard(),
-        //     HomeCard(),
-        //     HomeCard(),
-        //     HomeCard(),
-        //     HomeCard(),
-        //   ],
-        // ),
       ),
     );
   }
@@ -149,17 +135,17 @@ class _HomeCardState extends State<HomeCard> {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Color.fromARGB(255, 206, 186, 238),
+      color: Colors.amber[300],
       shadowColor: Colors.amberAccent[400],
       child: InkWell(
-        splashColor: Colors.amber[300],
+        splashColor: Colors.amber[400],
         onTap: () {
           Navigator.pushNamed(
             context,
             '/details',
             arguments: {
-              'iso': this._isoCode,
-              'name': this._coinName,
+              'iso': _isoCode,
+              'name': _coinName,
             },
           );
         },
@@ -172,9 +158,13 @@ class _HomeCardState extends State<HomeCard> {
               Row(
                 children: [
                   CircleAvatar(
-                    // backgroundColor: Colors.black,
-                    backgroundImage: AssetImage(logoPath[_isoCode]!),
                     radius: 35.0,
+                    backgroundColor: Colors.black,
+                    child: CircleAvatar(
+                      // backgroundColor: Colors.black,
+                      backgroundImage: AssetImage(logoPath[_isoCode]!),
+                      radius: 34.0,
+                    ),
                   ),
                   SizedBox(width: 10.0),
                   Expanded(
@@ -185,9 +175,9 @@ class _HomeCardState extends State<HomeCard> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          '${this._coinName} (${this._isoCode})',
+                          '$_coinName ($_isoCode)',
                           style: TextStyle(
-                            color: Colors.amber[800],
+                            color: Color.fromARGB(255, 0, 68, 87),
                             fontWeight: FontWeight.bold,
                             fontSize: 20.0,
                           ),
@@ -199,8 +189,9 @@ class _HomeCardState extends State<HomeCard> {
                             Text(
                               '\$$_marketCapital',
                               style: TextStyle(
-                                color: this._indicatorColor,
+                                color: Colors.pinkAccent[400],
                                 fontWeight: FontWeight.w600,
+                                fontFamily: 'Cabin',
                                 fontSize: 18.0,
                               ),
                             ),
