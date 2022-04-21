@@ -148,7 +148,7 @@ class DetailsCard extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 CircleAvatar(
-                  // backgroundColor: Colors.white,
+                  backgroundColor: Colors.white,
                   backgroundImage: AssetImage(imgPath!),
                   radius: 32.0,
                   // child: CircleAvatar(

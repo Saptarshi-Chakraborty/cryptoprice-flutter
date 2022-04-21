@@ -1,6 +1,6 @@
 # cryptoprice
 
-A new Flutter project.
+Get 90+ Crypto-Currency Prices in One App
 
 ## Getting Started
 

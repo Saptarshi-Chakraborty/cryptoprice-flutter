@@ -45,7 +45,7 @@ class _HomeState extends State<Home> {
 
   void getData() async {
     Response response = await get(Uri.parse(
-        'https://production.api.coindesk.com/v2/tb/price/ticker?assets=BTC,CHZ,SUSHI,XYO,ENJ,COTI,LPT,ANKR,IOTX,COMP,CELO,NKN,KSM,RLC,SKL,KEEP,ICP,SOL,WBTC,XRP,FIL,DOT,BAT,MATIC,BSV,XLM,MLN,KAVA,XEM,LSK,QTUM,DCR,DNT,DAI,ANT,REP,BAND,NMR,PAX,STORJ,CVC,BNT,NU,LTC,BCH,ADA,UNI,REN,EOS,GRT,IOTA,AAVE,NANO,KNC,USDC,DASH,XTZ,BTT,WAVES,OXT,MKR,ALGO,FET,BTG,ZRX,ZEC,LRC,MANA,OMG,XMR,ICX,ETC,TRX,YFI,NEO,PAXG,DOGE,SC,ATOM,LINK,USDT,LUNA,SHIB,ETH,AVAX,CRV,AXS,AMP,SNX,UMA,SAND,UST,SNGLS'));
+        'https://production.api.coindesk.com/v2/tb/price/ticker?assets=AAVE,ALGO,AMP,ANKR,ANT,REP,AVAX,AXS,BAND,BAT,BCH,BNT,BSV,BTC,BTG,BTT,ADA,ATOM,CELO,CHZ,COMP,COTI,CRV,CVC,LINK,DAI,DASH,DCR,MANA,DNT,DOGE,ENJ,EOS,ETC,ETH,MLN,FET,FIL,ICP,ICX,IOTA,IOTX,KAVA,KEEP,KNC,KSM,LPT,LRC,LSK,LTC,MKR,XMR,NANO,NEO,NKN,NMR,NU,OMG,OXT,PAX,PAXG,DOT,MATIC,QTUM,REN,RLC,SAND,SC,SHIB,SKL,SNGLS,SNX,SOL,XLM,STORJ,SUSHI,TRX,GRT,LUNA,XTZ,UMA,UNI,USDC,USDT,UST,WAVES,WBTC,XEM,XRP,XYO,YFI,ZEC,ZRX'));
 
     var responseBody = await jsonDecode(response.body);
     var data = responseBody['data'];
@@ -158,13 +158,9 @@ class _HomeCardState extends State<HomeCard> {
               Row(
                 children: [
                   CircleAvatar(
-                    radius: 35.0,
-                    backgroundColor: Colors.black,
-                    child: CircleAvatar(
-                      // backgroundColor: Colors.black,
-                      backgroundImage: AssetImage(logoPath[_isoCode]!),
-                      radius: 34.0,
-                    ),
+                    backgroundColor: Colors.white,
+                    backgroundImage: AssetImage(logoPath[_isoCode]!),
+                    radius: 34.0,
                   ),
                   SizedBox(width: 10.0),
                   Expanded(
