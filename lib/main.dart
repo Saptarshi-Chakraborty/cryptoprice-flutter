@@ -45,7 +45,9 @@ class _HomeState extends State<Home> {
 
   void getData() async {
     Response response = await get(Uri.parse(
-        'https://production.api.coindesk.com/v2/tb/price/ticker?assets=AAVE,ALGO,AMP,ANKR,ANT,REP,AVAX,AXS,BAND,BAT,BCH,BNT,BSV,BTC,BTG,BTT,ADA,ATOM,CELO,CHZ,COMP,COTI,CRV,CVC,LINK,DAI,DASH,DCR,MANA,DNT,DOGE,ENJ,EOS,ETC,ETH,MLN,FET,FIL,ICP,ICX,IOTA,IOTX,KAVA,KEEP,KNC,KSM,LPT,LRC,LSK,LTC,MKR,XMR,NANO,NEO,NKN,NMR,NU,OMG,OXT,PAX,PAXG,DOT,MATIC,QTUM,REN,RLC,SAND,SC,SHIB,SKL,SNGLS,SNX,SOL,XLM,STORJ,SUSHI,TRX,GRT,LUNA,XTZ,UMA,UNI,USDC,USDT,UST,WAVES,WBTC,XEM,XRP,XYO,YFI,ZEC,ZRX'));
+        'https://production.api.coindesk.com/v2/tb/price/ticker?assets=AAVE,ALGO,AMP,ANKR,ANT,REP,AVAX,AXS,BAND,BAT,BCH,BNT,BSV,BTC,BTG,BTT,ADA,ATOM,CELO,CHZ,COMP,COTI,CRV,CVC,LINK,DAI,DASH,DCR,MANA,DNT,DOGE,ENJ,EOS,ETC,ETH,MLN,FET,FIL,ICP,ICX,IOTA,IOTX,KAVA,KEEP,KNC,KSM,LPT,LRC,LSK,LTC,MKR,XMR,NANO,NEO,NKN,NMR,NU,OMG,OXT,PAXG,DOT,MATIC,QTUM,REN,RLC,SAND,SC,SHIB,SKL,SNGLS,SNX,SOL,XLM,STORJ,SUSHI,TRX,GRT,LUNA,XTZ,UMA,UNI,USDC,USDT,UST,WAVES,WBTC,XEM,XRP,XYO,YFI,ZEC,ZRX'));
+    // Response response = await get(Uri.parse(
+    //     'https://production.api.coindesk.com/v2/tb/price/ticker?assets=BTC,ETH,XRP,BCH,ADA,XLM,NEO,LTC,EOS,XEM,IOTA,DASH,XMR,TRX,ICX,ETC,QTUM,BTG,VET,LSK,USDT,OMG,STEEM,ZEC,SC,BNB,XVG,ZRX,REP,WAVES,MKR,DCR,BAT,DGB,LRC,KNC,SYS,BNT,REQ,LINK,QSP,CVC,RLC,ENJ,STORJ,ANT,SNGLS,THETA,MANA,MLN,DNT,AMP,NMR,STX,POLIS,DOT,DAI,UNI,ATOM,GRT,LUNA,SCRT,IMX,ZIL,XTZ,FIL,OP,NANO,WBTC,BSV,DOGE,USDC,OXT,ALGO,BAND,BTT,FET,KAVA,USDP,PAXG,REN,AAVE,YFI,NU,MATIC,ICP,SOL,SUSHI,UMA,SNX,CRV,COMP,CELO,KSM,NKN,SHIB,SKL,SAND,UST,AVAX,IOTX,AXS,XYO,ANKR,CHZ,LPT,COTI,KEEP,GALA,CRO,ACHP,JASMY,SLP,APE,BUSD,CAKE,EGLD,ENS,FTM,FTT,HBAR,MBOX,MINA,MOVR,NEAR,NEXO,POLS,QNT,QUICK,RUNE,RVN,WAXP,WRX,XEC,CEL,ALPACA,AUDIO,AVA,CHR,CKB,CLV,FARM,FLOW,GLMR,IDEX,INJ,JOE,MIR,POLY,PYR,RARE,RAY,ROSE,SFP,SRM,STMX,SUN,SXP,VGX,WOO,YGG,LUNC,DLCS,MTVS,DFX,SCPX,SCPXX,DIGS,CCYS,CCYX,CPUS,CNES,CMI,CMIX,SMT,CCY,CCX,DTZ,DCF,CPU,CNE'));
 
     var responseBody = await jsonDecode(response.body);
     var data = responseBody['data'];
@@ -173,7 +175,8 @@ class _HomeCardState extends State<HomeCard> {
                         Text(
                           '$_coinName ($_isoCode)',
                           style: TextStyle(
-                            color: Color.fromARGB(255, 0, 68, 87),
+                            // color: Color.fromARGB(255, 0, 68, 87),
+                            color: Colors.pinkAccent[400],
                             fontWeight: FontWeight.bold,
                             fontSize: 20.0,
                           ),
@@ -185,9 +188,11 @@ class _HomeCardState extends State<HomeCard> {
                             Text(
                               '\$$_marketCapital',
                               style: TextStyle(
-                                color: Colors.pinkAccent[400],
-                                fontWeight: FontWeight.w600,
-                                fontFamily: 'Cabin',
+                                // color: Colors.pinkAccent[400],
+                                color: Colors.grey[900],
+                                fontWeight: FontWeight.w700,
+                                fontFamily: 'Ubuntu',
+                                letterSpacing: 0.0,
                                 fontSize: 18.0,
                               ),
                             ),

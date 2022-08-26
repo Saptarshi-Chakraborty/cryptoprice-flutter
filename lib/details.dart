@@ -119,7 +119,9 @@ class DetailsCard extends StatelessWidget {
     // print('priceChange is = $priceChange');
     String marketCap = '';
     double a;
-    if (marketCapital > 1000000000) {
+    if (marketCapital == null) {
+      marketCap = 'Not Available';
+    } else if (marketCapital > 1000000000) {
       a = double.parse((marketCapital / 1000000000).toStringAsFixed(2));
       marketCap = '$a B';
     } else if (marketCapital > 1000000) {
